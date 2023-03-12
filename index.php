@@ -36,25 +36,26 @@
             <a href="" class="navbar-brand font-weight-bold text-secondary" style="font-size: 50px;">
                 <i class="flaticon-043-teddy-bear"></i>
                 <span class="text-primary">DARURRAHMAH</span>
+            </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav font-weight-bold mx-auto py-0">
-                    <a href="index.html" class="nav-item nav-link active">Home</a>
-                    <a href="about.html" class="nav-item nav-link">Profil</a>
-                    <a href="team.html" class="nav-item nav-link">Pengajar</a>
-                    <a href="gallery.html" class="nav-item nav-link">Foto</a>
+                    <a href="index.php" class="nav-item nav-link active">Home</a>
+                    <a href="about.php" class="nav-item nav-link">Profil</a>
+                    <a href="team.php" class="nav-item nav-link">Pengajar</a>
+                    <a href="gallery.php" class="nav-item nav-link">Foto</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Terkini</a>
                         <div class="dropdown-menu rounded-0 m-0">
-                            <a href="blog.html" class="dropdown-item">Blog Grid</a>
-                            <a href="single.html" class="dropdown-item">Blog Detail</a>
+                            <a href="blog.php" class="dropdown-item">Blog Grid</a>
+                            <a href="single.php" class="dropdown-item">Blog Detail</a>
                         </div>
                     </div>
-                    <a href="contact.html" class="nav-item nav-link">Hubungi</a>
+                    <a href="contact.php" class="nav-item nav-link">Hubungi</a>
                 </div>
-                <a href="class.html" class="btn btn-primary px-4">Daftar sekarang</a>
+                <a href="class.php" class="btn btn-primary px-4">Daftar sekarang</a>
             </div>
         </nav>
     </div>
@@ -65,10 +66,10 @@
     <div class="container-fluid bg-primary px-0 px-md-5 mb-5">
         <div class="row align-items-center px-3">
             <div class="col-lg-6 text-center text-lg-left">
-                <h4 class="text-white mb-4 mt-5 mt-lg-0">YAYASAN DARURRAHMAHHHHHH</h4>
+                <h4 class="text-white mb-4 mt-5 mt-lg-0">YAYASAN DARURRAHMAH</h4>
                 <h1 class="display-3 font-weight-bold text-white">Taman Asuh Anak Muslim (TAAM)</h1>
                 <p class="text-white mb-4">Menciptakan Anak Didik Yang Cerdas, Sehat, Ceria dan Menjadi Generasi Yang Berakhlak Mulia.</p>
-                <a href="about.html" class="btn btn-secondary mt-1 py-3 px-5">Selengkapnya...</a>
+                <a href="about.php" class="btn btn-secondary mt-1 py-3 px-5">Selengkapnya...</a>
             </div>
             <div class="col-lg-6 text-center text-lg-right">
                 <img class="img-fluid mt-5" src="img/sekolahh.png" alt="">

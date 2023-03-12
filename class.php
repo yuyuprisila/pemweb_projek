@@ -1,3 +1,9 @@
+<?php 
+
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -36,25 +42,26 @@
             <a href="" class="navbar-brand font-weight-bold text-secondary" style="font-size: 50px;">
                 <i class="flaticon-043-teddy-bear"></i>
                 <span class="text-primary">DARURRAHMAH</span>
+            </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav font-weight-bold mx-auto py-0">
-                    <a href="index.html" class="nav-item nav-link active">Home</a>
-                    <a href="about.html" class="nav-item nav-link">Profil</a>
-                    <a href="team.html" class="nav-item nav-link">Pengajar</a>
-                    <a href="gallery.html" class="nav-item nav-link">Foto</a>
+                    <a href="index.php" class="nav-item nav-link">Home</a>
+                    <a href="about.php" class="nav-item nav-link">Profil</a>
+                    <a href="team.php" class="nav-item nav-link">Pengajar</a>
+                    <a href="gallery.php" class="nav-item nav-link">Foto</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Terkini</a>
                         <div class="dropdown-menu rounded-0 m-0">
-                            <a href="blog.html" class="dropdown-item">Blog Grid</a>
-                            <a href="single.html" class="dropdown-item">Blog Detail</a>
+                            <a href="blog.php" class="dropdown-item">Blog Grid</a>
+                            <a href="single.php" class="dropdown-item">Blog Detail</a>
                         </div>
                     </div>
-                    <a href="contact.html" class="nav-item nav-link">Hubungi</a>
+                    <a href="contact.php" class="nav-item nav-link">Hubungi</a>
                 </div>
-                <a href="class.html" class="btn btn-primary px-4">Daftar sekarang</a>
+                <!-- <a href="class.php" class="btn btn-primary px-4">Daftar sekarang</a> -->
             </div>
         </nav>
     </div>
@@ -64,11 +71,11 @@
     <!-- Header Start -->
     <div class="container-fluid bg-primary mb-5">
         <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 400px">
-            <h3 class="display-3 font-weight-bold text-white">Our Classes</h3>
+            <h3 class="display-3 font-weight-bold text-white">PENDAFTARAN</h3>
             <div class="d-inline-flex text-white">
                 <p class="m-0"><a class="text-white" href="">Home</a></p>
                 <p class="m-0 px-2">/</p>
-                <p class="m-0">Our Classes</p>
+                <p class="m-0">Pendaftaran</p>
             </div>
         </div>
     </div>
