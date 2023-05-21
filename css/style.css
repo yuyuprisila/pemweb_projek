@@ -5,6 +5,8 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+ 
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -9863,4 +9865,9 @@ a.text-dark:hover, a.text-dark:focus {
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+
+div.error {
+  border: 1px solid #FF0000; /* memberikan border merah pada input */
+  background-color: #FFC0CB; /* memberikan background warna pink pada input */
 }
