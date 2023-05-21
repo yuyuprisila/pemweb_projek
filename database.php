@@ -1,9 +1,12 @@
 <?php
 $hoshame = "localhost";
-$dbname = "darurraahmah";
+$dbname = "darurrahmah";
 $username = "root";
 $password = "";
 
-$conn = new mysqli($hoshame, $dbname, $password, $dbname);
-
+$conn = new mysqli($hoshame, $username, $password, $dbname);
+if ($conn->connect_error) {
+    echo "error connection";
+  }
+  
 ?>
